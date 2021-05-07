@@ -62,7 +62,7 @@ prompt.get([
     name: 'walletType'
   },
   {
-    description: '输入要生成的以太坊钱包个数',
+    description: '想要多少个钱包',
     name: 'walletNum'
   }
 ], (_, { walletType, walletNum }) => {
